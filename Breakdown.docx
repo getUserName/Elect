@@ -1,1 +1,69 @@
+Activities: Documentation/Testing, Training, Development, Database design and implementation, GUI
+Breakdown:
+Documentation/testing
+•  Ongoing
+•	Final documentation
+Training
+•	CodeIgniter
+•	PHP
+•	CSS
+•	JavaScript
+Development
+•	Login sign-up(James)
+o	Forgot your password
+•	Creating elections(Maxwell)
+o	Candidate addition
+o	Voter addition
+o	Voter group creation
+o	Opt. election password
+o	Election date setting
+•	Running elections(Amiel)
+o	Auto run elections
+o	Auto end elections
+•	Closing election(James)
+•	Election deletion(Paolo)
+•	Results/progress display(James)
+•	Election log(Paolo)
+•	Email reminders/receipt(James)
+•	Voter accounts/profile(James)
+o	Random password generator
+o	Password update
+o	Election list
+•	Vote submit/profile(Amiel)
+o	Email/receipt
+o	Database update
+•	Account deletion(Paolo)
+Database design and implementation(All)
+•	Database design
+o	ERD
+o	Data dictionary
+o	implementation
+GUIdesign(Amiel)
+•	home page – org login/voter login
+•	organization profile page
+o	election page
+o	election log
+o	voter group page
+o	voter list page
+o	candidate addition page
+o	new election page
+•	voter profile page
+o	ballot page
+•	sign out page
+id	Activity	Duration(hours)	Dependencies	Human
+T0	GUI	30	-	Amiel
+T1	Database Design and Implementation	7	-	All
+T2	Log-in Sign-up	7	T10(M1)	James
+T3	Creating Elections	14.5	T10(M1)	Maxwell
+T4	Running Elections	9.25	T3(M2)	Amiel
+T5	Closing Elections	4.5	T4(M3)	James
+T6	Election deletion	4	T3(M2)	Paolo
+T7	Results/progress display	6	T11(M4)	James
+T8	Election log	10.75	T11(M4)	Paolo
+T9	Email reminders/receipt	10.75	T3(M2)	James
+T10	Voter account/profile	10	T1(M5)	James
+T11	Vote submit/profile	5	T5,T9(M6)	Amiel
+T12	Account Deletion	4.5	T1(M5)	Paolo
+
+
 
